@@ -1,13 +1,13 @@
 ## Algorithm Exercises: Fibonacci Sequence
 
-In this exercise, you will again consider implementing a similar process in two different ways: iteratively and recursively. You familiarized yourself with each of these approaches in the [previous exercise](../../../algorithm-drill-factorial-challenge).
+In this exercise, you will again consider implementing a similar process in two different ways: iteratively and recursively. You familiarized yourself with each of these approaches in the [previous exercise](https://github.com/Elbrus-Bootcamp/core-algorithm-factorial/tree/master-eng).
 
 The work you will be doing while trying to solve this problem is calculating a number in the Fibonacci sequence. You will need to write two methods, each of which will take an integer as an argument and return its index in the Fibonacci sequence. If your methods are called with an argument of `7`, then they return the seventh number in the sequence. If called with `23`, then, accordingly, they return the twenty-third number in the sequence.
 
 
 ### Fibonacci sequence
 
-[Fibonacci sequence](https://ru.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D0%BB%D0%B0_%D0%A4%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8) - is a certain sequence of numbers. The ratio between the numbers is close to the [golden ratio](https://ru.wikipedia.org/wiki/%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B5_%D1%81%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5), which is used in [art](https://en.wikipedia.org/wiki/List_of_works_designed_with_the_golden_ratio) for its aesthetic properties.
+[Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) - is a certain sequence of numbers. The ratio between the numbers is close to the [golden ratio](https://en.wikipedia.org/wiki/Golden_ratio), which is used in [art](https://en.wikipedia.org/wiki/List_of_works_designed_with_the_golden_ratio) for its aesthetic properties.
 
 Why are we interested in calculating numbers in a sequence? Not for the sake of the numbers themselves, but because the sequence represents a real system of rules that we can model in code.
 
