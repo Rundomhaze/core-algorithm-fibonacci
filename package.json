@@ -1,0 +1,26 @@
+{
+  "name": "core-algorithm-fibonacci",
+  "version": "1.0.0",
+  "description": "В этой задаче ты снова рассмотришь реализацию аналогичного процесса двумя разными способами: итеративно и рекурсивно. Ты ознакомился(ась) с каждым из этих подходов в [предыдущей задаче](../../../algorithm-drill-factorial-challenge).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest spec/*[sS]pec.js -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rundomhaze/core-algorithm-fibonacci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rundomhaze/core-algorithm-fibonacci/issues"
+  },
+  "homepage": "https://github.com/Rundomhaze/core-algorithm-fibonacci#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.0"
+  }
+}
