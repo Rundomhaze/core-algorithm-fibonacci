@@ -24,5 +24,6 @@ describe("Should return fibonacci numbers iteration and recursion methods", func
     expect(fiboRecursion(5)).toBe(5)
     expect(fiboRecursion(6)).toBe(8)
     expect(fiboRecursion(7)).toBe(13)
+    expect(fiboRecursion(10)).toBe(55)
   });
 });

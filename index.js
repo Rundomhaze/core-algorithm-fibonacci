@@ -13,6 +13,8 @@ function fiboRecursion(num) {
   return fiboRecursion(num - 2) + fiboRecursion(num - 1)
 };
 
+fiboRecursion(4)
+
 module.exports = {
   fiboIteration,
   fiboRecursion
