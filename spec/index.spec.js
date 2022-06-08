@@ -1,27 +1,28 @@
 const {
-  fibIt,
-  fibRec
+  fiboIteration,
+  fiboRecursion
 }
-= require('../index')
+  = require('../index')
 
-test('fibIt', function () {
-  expect(fibIt(1)).toBe(1)
-  expect(fibIt(2)).toBe(1)
-  expect(fibIt(3)).toBe(2)
-  expect(fibIt(4)).toBe(3)
-  expect(fibIt(5)).toBe(5)
-  expect(fibIt(6)).toBe(8)
-  expect(fibIt(7)).toBe(13)
+describe("Should return fibonacci numbers iteration and recursion methods", function () {
+  test('fiboIteration', function () {
+    expect(fiboIteration(1)).toBe(1)
+    expect(fiboIteration(2)).toBe(1)
+    expect(fiboIteration(3)).toBe(2)
+    expect(fiboIteration(4)).toBe(3)
+    expect(fiboIteration(5)).toBe(5)
+    expect(fiboIteration(6)).toBe(8)
+    expect(fiboIteration(7)).toBe(13)
+  });
+
+
+  test('fiboRecursion', function () {
+    expect(fiboRecursion(1)).toBe(1)
+    expect(fiboRecursion(2)).toBe(1)
+    expect(fiboRecursion(3)).toBe(2)
+    expect(fiboRecursion(4)).toBe(3)
+    expect(fiboRecursion(5)).toBe(5)
+    expect(fiboRecursion(6)).toBe(8)
+    expect(fiboRecursion(7)).toBe(13)
+  });
 });
-
-
-test('fibRec', function () {
-  expect(fibRec(1)).toBe(1)
-  expect(fibRec(2)).toBe(1)
-  expect(fibRec(3)).toBe(2)
-  expect(fibRec(4)).toBe(3)
-  expect(fibRec(5)).toBe(5)
-  expect(fibRec(6)).toBe(8)
-  expect(fibRec(7)).toBe(13)
-});
-

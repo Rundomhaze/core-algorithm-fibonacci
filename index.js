@@ -1,24 +1,19 @@
-function fibIt(n) {
-  let a = 1;
-  let b = 1;
-  for (let i = 3; i <= n; i++) {
-    let c = a + b;
-    a = b;
-    b = c;
+function fiboIteration(num) {
+  let arrayRes = [0, 1]
+  for (let i = 2; i <= num; i++) {
+    arrayRes.push(arrayRes[i - 2] + arrayRes[i - 1]);
+  };
+  return arrayRes[num];
+};
+
+function fiboRecursion(num) {
+  if(num <= 1){
+    return num
   }
-  return b;
-}
-
-
-function fibRec(n) {
-  if (n <= 1) {
-    return n;
-  }
-  return fibRec(n - 1) + fibRec(n - 2)
-}
-
+  return fiboRecursion(num - 2) + fiboRecursion(num - 1)
+};
 
 module.exports = {
-  fibIt,
-  fibRec
+  fiboIteration,
+  fiboRecursion
 }
